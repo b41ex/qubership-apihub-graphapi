@@ -2,7 +2,7 @@ name: Frontend CI Workflow
 
 on:
   push: 
-    branches
+    branches:
 
 jobs: 
   call-frontend-ci-workflow:
