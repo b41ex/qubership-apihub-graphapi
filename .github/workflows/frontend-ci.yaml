@@ -5,7 +5,8 @@ on:
     branches:
 
 permissions:  
-  packages: read  
+  packages: read
+  contents: write
 
 jobs: 
   call-frontend-ci-workflow:
