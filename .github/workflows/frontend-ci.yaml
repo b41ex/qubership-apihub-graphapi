@@ -4,6 +4,9 @@ on:
   push: 
     branches:
 
+permissions:  
+  packages: read  
+
 jobs: 
   call-frontend-ci-workflow:
     uses: netcracker/qubership-apihub-ci/.github/workflows/deploy-storybook.yaml@feature/deploy-storybook
