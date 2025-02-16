@@ -1,5 +1,5 @@
 {
-  "name": "@netcracker/qubership-apihub-graphapi",
+  "name": "@netcracker/qubership-apihub-graphapi-storybook",
   "version": "1.0.8",
   "description": "The GraphAPI Specification Repository",
   "module": "./dist/index.es.js",
@@ -43,8 +43,7 @@
     "api"
   ],
   "license": "Apache-2.0",
-  "devDependencies": {
-    "@netcracker/qubership-apihub-npm-gitflow": "2.2.0",
+  "devDependencies": {    
     "@storybook/addon-essentials": "7.5.1",
     "@storybook/addon-interactions": "7.5.1",
     "@storybook/addon-links": "7.5.1",
