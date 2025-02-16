@@ -1,0 +1,1 @@
+{"version":3,"file":"root-level.transformer.d.ts","sourceRoot":"","sources":["../../../src/build-graph-api/of-introspection/root-level.transformer.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,kBAAkB,EAAE,MAAM,SAAS,CAAC;AAClD,OAAO,KAAK,EAAE,iBAAiB,EAAoB,MAAM,aAAa,CAAC;AAIvE,wBAAgB,mBAAmB,CACjC,MAAM,EAAE,SAAS,kBAAkB,EAAE,GAAG,MAAM,CAAC,MAAM,EAAE,iBAAiB,CAAC,CAU1E"}

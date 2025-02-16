@@ -1,0 +1,30 @@
+import { DirectiveLocation, GraphQLList, GraphQLNamedType, GraphQLNonNull, GraphQLNullableType, GraphQLScalarType } from 'graphql';
+import { GRAPH_API_NODE_KIND_INTERFACE, GRAPH_API_NODE_KIND_OBJECT } from './constants';
+import { GraphApiAnyDefinition, GraphApiAnyUsage, GraphApiArgs, GraphApiArgument, GraphApiDirective, GraphApiDirectiveDefinition, GraphApiDirectives, GraphApiEnumDefinition, GraphApiInputObjectDefinition, GraphApiListDefinition, GraphApiNodeType, GraphApiObjectDefinition, GraphApiObjectKind, GraphApiOperation, GraphApiRef, GraphApiScalarDefinition, GraphApiSchema, GraphApiUnionDefinition } from './types';
+export declare function isObject(maybeObject: unknown): maybeObject is Record<PropertyKey, unknown>;
+export declare function isGraphApi(value: unknown): value is GraphApiSchema;
+export declare function isGraphApiOperation(value: unknown): value is GraphApiOperation;
+export declare function isGraphApiArgument(value: unknown): value is GraphApiArgument;
+export declare function isGraphApiArgs(value: unknown): value is GraphApiArgs;
+export declare function isGraphApiRef(value: unknown): value is GraphApiRef;
+export declare function hasGraphApiEntityType(value: unknown): value is {
+    type: GraphApiNodeType<string>;
+};
+export declare function isGraphApiDirective(value: unknown): value is GraphApiDirective;
+export declare function isGraphApiDirectiveDefinition(value: unknown): value is GraphApiDirectiveDefinition;
+export declare function isGraphApiDirectiveLocation(value: unknown): value is DirectiveLocation;
+export declare function isGraphApiDirectives(value: unknown): value is GraphApiDirectives;
+export declare function isGraphApiUnionDefinition(value: unknown): value is GraphApiUnionDefinition;
+export declare function isGraphApiListDefinition(value: unknown): value is GraphApiListDefinition;
+export declare function isGraphApiScalarDefinition(value: unknown): value is GraphApiScalarDefinition;
+export declare function isGraphApiEnumDefinition(value: unknown): value is GraphApiEnumDefinition;
+export declare function isGraphApiObjectDefinition(value: unknown): value is GraphApiObjectDefinition<typeof GRAPH_API_NODE_KIND_OBJECT>;
+export declare function isGraphApiInterfaceDefinition(value: unknown): value is GraphApiObjectDefinition<typeof GRAPH_API_NODE_KIND_INTERFACE>;
+export declare function isGraphApiObjectiveDefinition(value: unknown): value is GraphApiObjectDefinition<GraphApiObjectKind>;
+export declare function isGraphApiInputObjectDefinition(value: unknown): value is GraphApiInputObjectDefinition;
+export declare function isGraphApiAnyDefinition(value: unknown): value is GraphApiAnyDefinition;
+export declare function isGraphApiAnyUsage(value: unknown): value is GraphApiAnyUsage;
+export declare function isNonNullType(gqlType: GraphQLNullableType): gqlType is GraphQLNonNull<any>;
+export declare function isListType(gqlType: GraphQLNullableType): gqlType is GraphQLList<any>;
+export declare function isScalarType(gqlType: GraphQLNamedType): gqlType is GraphQLScalarType;
+//# sourceMappingURL=guards.d.ts.map
