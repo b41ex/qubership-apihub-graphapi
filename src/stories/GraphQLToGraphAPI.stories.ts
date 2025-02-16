@@ -12,7 +12,7 @@ import {
 } from './GraphAPIPlayground';
 
 const meta: Meta<typeof GraphApiPlayground> = {
-  title: 'GraphApiPlayground',
+  title: 'GraphApiPlayground1',
   component: GraphApiPlayground,
   argTypes: {
     mode: {
